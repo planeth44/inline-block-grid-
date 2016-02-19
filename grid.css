@@ -1,0 +1,57 @@
+
+/*
+    GRILLES - Feuille de styles
+    Author: Nico Blandel | @NicoBlandel
+    Author URI:
+    Explications :
+        - fullGrid : basé sur les inline-block, config de base
+        - gridXX : défini une grille de largeur XX%
+*/
+
+@media only screen and (min-width:768px) {
+
+    /** Définition du conteneur de grilles
+      * --------------------------------------------- */
+    .fullGrid {
+        display: block;
+        margin: 0;
+        font-size: 0;
+    }
+    .fullGrid *[class*="grid"] {
+        display: inline-block;
+        vertical-align: top;
+        margin: 0;
+        padding: 1em;
+        font-size: 1rem;
+    }
+
+    /** Définition des grilles
+      * --------------------------------------------- */
+    .grid25 {
+        width: 25%;
+    }
+    .grid25 {
+        width: 25%;
+    }
+    .grid33 {
+        width: 33.333333%;
+    }
+    .grid40 {
+        width: 40%;
+    }
+    .grid50 {
+        width: 50%;
+    }
+    .grid60 {
+        width: 60%;
+    }
+    .grid66 {
+        width: 66.666666%;
+    }
+    .grid75 {
+        width: 75%;
+    }
+    .grid100 {
+        width: 100%;
+    }
+} 
